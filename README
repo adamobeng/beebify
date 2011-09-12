@@ -1,0 +1,11 @@
+# beebify
+
+A quick and very ugly script to get the BBC's radio charts and playlists as
+ Spotify tracks.
+
+There's not much more to it than that... I wanted to get the charts and
+playlists from various BBC radio stations into Spotify: this is how I did it.
+
+It's not very Pythonic, or readable, or modular, or reusable. But it's Good Enough (TM).
+
+*beebify* is available under the MIT licence. See the COPYING file for more information.
