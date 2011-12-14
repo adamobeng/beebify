@@ -32,7 +32,8 @@ def get_radio_2_tracks(url):
 	html = urllib2.urlopen('http://www.bbc.co.uk/radio2/music-events/playlist/').read()
 	items = re.findall(r'<div class="record">(.*?)</div>', html, re.MULTILINE|re.DOTALL)
 	for item in items:
-		artist, track = string.split(item, ' - ')
+		subitems = string.split(item, ' - ')
+		artist, track = subitems[0], string.join(subitems[1:], ' ')
 		tracks.append([None, None, track, artist])
 	return tracks
 
