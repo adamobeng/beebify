@@ -8,4 +8,7 @@ playlists from various BBC radio stations into Spotify: this is how I did it.
 
 It's not very Pythonic, or readable, or modular, or reusable. But it's Good Enough (TM).
 
+Via the magic of GitHub Pages <http://pages.github.com/>, there is an online
+ version of the output at <http://adamobeng.github.com/beebify/>.
+
 *beebify* is available under the MIT licence. See the COPYING file for more information.
