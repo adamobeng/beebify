@@ -14,4 +14,7 @@ It's not very Pythonic, or readable, or modular, or reusable. But it's Good Enou
 Via the magic of GitHub Pages <http://pages.github.com/>, there is an online
  version of the output at <http://adamobeng.github.com/beebify/>.
 
+The 'update_charts.sh' script runs through the necessary steps to get the new versons
+of the charts and push the changes to GitHub.
+
 *beebify* is available under the MIT licence. See the COPYING file for more information.
