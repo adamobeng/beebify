@@ -90,6 +90,7 @@ charts = [
 		['1Xtra Playlist All tracks', 'http://www.bbc.co.uk/1xtra/playlist/'],
 		['1Xtra Playlist New tracks', 'http://www.bbc.co.uk/1xtra/playlist/new'],
 		['Radio 2 Playlist', 'http://www.bbc.co.uk/radio2/music-events/playlist/'],
+                ['Dance singles', 'http://www.bbc.co.uk/radio1/chart/dancesingles'],
 	]
 
 if __name__ == '__main__':
