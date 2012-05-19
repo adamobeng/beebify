@@ -4,6 +4,7 @@ import urllib2
 import urllib
 import re
 import string
+import datetime
 
 # It would also be nice to work out the formats for http://www.bbc.co.uk/6music/listen/playlist.shtml and http://www.bbc.co.uk/radio2/music-events/playlist/
 # Albums might be good too http://www.bbc.co.uk/radio1/chart/albums
@@ -102,7 +103,7 @@ if __name__ == '__main__':
 		#print name, playlist 
 		safe_filename = 'output/' + re.sub(r'[:/]', '', url) + '.html' 
 		f = open(safe_filename, 'w')
-		f.write('<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>' + name + ' Spotify Playlist</title></head><body><h1><a href="' + url + '">' + name + '</a></h1><ul>')
+		f.write('<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>' + name + ' Spotify Playlist</title></head><body><h1><a href="' + url + '">' + name + '</a></h1><p>Updated ' +  str(datetime.datetime.utcnow()) +'</p><ul>')
 		for track in playlist:
 			print track
 			if track[4]:
